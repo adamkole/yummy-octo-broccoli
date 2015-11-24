@@ -18,7 +18,11 @@ main()
         printf("\n Element maksymalny ciagu: %f",maksimum(a,n));
         getch();
         return 0;
+<<<<<<< HEAD
 sadsad
+=======
+asddsadsadsa
+>>>>>>> Nowa
 }
 float minimum(float a[],int n)
 {
