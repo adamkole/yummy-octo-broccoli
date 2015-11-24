@@ -1,0 +1,19 @@
+// Zapis i odczyt liczby z pliku
+#include <stdio.h>
+#include <conio.h>
+main()
+{
+        FILE *fp;
+        int liczba;
+        fp=fopen("plik.dat","w+b");
+        printf("\n Wczytaj liczbe: ");
+        scanf("%d",&liczba);
+        fwrite(&liczba,sizeof(int),1,fp);
+        fclose(fp);
+        fp=fopen("plik.dat","r+b");
+        fread(&liczba,sizeof(int),1,fp);
+        printf("\n Zapisano liczbe: %d",liczba);
+        fclose(fp);
+        getch();
+        return 0;
+}
