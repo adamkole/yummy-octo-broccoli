@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 main()
-{//Test1
+{//Test3
         float minimum(float [],int );
         float maksimum(float [],int );
         float a[50];
@@ -18,7 +18,6 @@ main()
         printf("\n Element maksymalny ciagu: %f",maksimum(a,n));
         getch();
         return 0;
-sadsad
 }
 float minimum(float a[],int n)
 {
