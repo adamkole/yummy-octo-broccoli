@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 main()
-{
+{//Test1
         float minimum(float [],int );
         float maksimum(float [],int );
         float a[50];
