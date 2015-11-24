@@ -1,4 +1,4 @@
-// Struktura instytuty
+// Struktura instytuty sa
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
